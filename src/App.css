@@ -12,4 +12,141 @@ body {
 }
 
 /* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+}
 
+.main-head {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Bree Serif';
+  font-weight: 200;
+}
+
+span {
+  font-weight: bold;
+}
+
+.create-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.head {
+  font-size: 30px;
+}
+
+.add-bar {
+  padding-left: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input {
+  font-size: 20px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0.5px solid;
+  flex-grow: 1;
+  align-self: center;
+  height: 40px;
+}
+
+.add-button {
+  margin-left: 20px;
+  align-self: center;
+  font-size: 16px;
+  padding: 8px;
+  border-radius: 8px;
+  border: 0px solid;
+  background-color: #9fd339;
+  cursor: pointer;
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .add-button {
+    font-size: 12px;
+  }
+}
+
+.list-container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.empty {
+  text-align: center;
+}
+
+.empty-head {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.todo-card-list {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  padding-left: 20px;
+}
+
+.grey {
+  background-color: #c4c4c4;
+  color: grey;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.normal {
+  border-radius: 10px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.todo-card {
+  padding: 10px;
+  padding-left: 20px;
+  border: 1px solid;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todo {
+  margin: 0px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.task-button {
+  border: 0px solid;
+  font-size: 16px;
+  cursor: pointer;
+  color: #ffffff;
+  margin-right: 10px;
+  align-self: center;
+  border-radius: 10px;
+  display: flex;
+  padding: 4px;
+}
+
+.red {
+  background-color: #f03e3e;
+  margin-right: 20px;
+}
+
+.green {
+  background-color: #29b329;
+}
+
+.done-card {
+  margin-bottom: 20px;
+}
